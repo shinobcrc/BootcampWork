@@ -1,0 +1,90 @@
+* {
+    background-color: #F6F0ED;
+}
+
+
+h1 {
+    font-size:50px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:200;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.information {
+    font-size: 30px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#rating {
+    font-size: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: crimson;
+}
+
+
+
+.pics {
+    height:405px;
+    width: 725px;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    border-radius: 8%;
+    box-shadow: 5px 5px 5px black;
+
+
+}
+
+.ingredients {
+    font-size: 25px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:100;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    line-height: 50px;
+    padding: 30px 30px 30px 30px;
+}
+
+ul :hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+
+
+#directions {
+      font-size: 25px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:100;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    line-height: 50px;
+    
+ 
+}
+
+
+h2 {
+    font-size: 30px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;  
+}
+
+
+
+
+#check-box {
+    align-content: center;
+}
