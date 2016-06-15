@@ -1,41 +1,17 @@
-$(document).ready(function(){
- 
-    
-$( "button" ).click(function() {
-  $( this ).parent().slideUp( "slow", function() {
-    $( "#msg" ).text( $( "button", this ).text() + " has completed." );
-  });
+$(document).ready(function(){    
+    $( "#directions li" ).on("click", function() {
+        $( this ).slideUp( "slow", function() {
+            $( "#msg" ).text( $( 'p', this ).text() + " has completed." );
+        });
+    });
+    $( "#ingredients li").click(function() {
+        $( this ).hide(); 
+    });
+    $( "img" ).click(function() {
+        $( this ).hide( 2000, function() {
+            $( this ).remove();
+        });
+    });
 });
     
-$( "img" ).click(function() {
-  $( this ).hide( 2000, function() {
-    $( this ).remove();
-  });
-});
     
-    
-$("ul").click(function() {
-    $("ul").css("font-size", "32px");
-    
-    
-    
-    
-});
-        
-        
-    
-    
-    
-    
-  });
-
-        
-        
-        
-        
-        
-
-    
-    
-    
-
